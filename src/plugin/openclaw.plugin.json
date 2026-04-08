@@ -1,0 +1,17 @@
+{
+  "id": "openclaw-lark",
+  "channels": ["feishu"],
+  "skills": ["./skills"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "channelConfigs": {
+    "feishu": {
+      "schema": {
+        "type": "object"
+      }
+    }
+  }
+}
