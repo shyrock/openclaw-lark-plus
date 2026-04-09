@@ -38,9 +38,9 @@ Edit `~/.openclaw/openclaw.json`:
 ```json
 {
   "plugins": {
-    "allow": ["openclaw-lark"],
+    "allow": ["openclaw-lark-plus"],
     "entries": {
-      "openclaw-lark": {
+      "openclaw-lark-plus": {
         "enabled": true,
         "path": "~/.openclaw/extensions/openclaw-lark-plus"
       }

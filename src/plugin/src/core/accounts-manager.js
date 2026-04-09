@@ -245,8 +245,8 @@ function addFeishuAccount(params) {
 
     if (!config.plugins) config.plugins = {};
     if (!config.plugins.allow) config.plugins.allow = [];
-    if (!config.plugins.allow.includes('openclaw-lark')) {
-        config.plugins.allow.push('openclaw-lark');
+    if (!config.plugins.allow.includes('openclaw-lark-plus')) {
+        config.plugins.allow.push('openclaw-lark-plus');
     }
 
     writeOpenClawConfig(config);
