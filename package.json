@@ -15,6 +15,21 @@
   "author": "",
   "license": "MIT",
   "type": "commonjs",
+  "openclaw": {
+    "extensions": [
+      "./src/plugin/index.js"
+    ],
+    "channel": {
+      "id": "openclaw-lark-plus",
+      "label": "Feishu (Plus)",
+      "selectionLabel": "Lark/Feishu Plus (飞书多用户版)",
+      "docsPath": "/channels/feishu",
+      "docsLabel": "feishu-plus",
+      "blurb": "Multi-user Feishu/Lark with QR registration and per-user agent isolation.",
+      "aliases": ["lark-plus"],
+      "order": 36
+    }
+  },
   "dependencies": {
     "@larksuite/openclaw-lark-tools": "^1.0.38",
     "@larksuiteoapi/node-sdk": "^1.60.0",
